@@ -5,19 +5,36 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Shayla Rohrer">
-
     <meta name="description" content="Shayla Rohrer's Homepage">
     <meta name="keywords" content="Shayla, Rohrer, Homepage, Software Development, Bellevue College">
-
+    
     <title>Shayla's Website</title>
-</head>
-<stylesheet>
+
+    <!-- meyers reset css -->
     <link rel="stylesheet" href="css/style.css">
-</stylesheet>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
 <body>
     <div class="header">
-        <h1>Welcome to My Homepage</h1>
+        <h1>Home</h1>
     </div>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navigation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="html/webresources.html">Web Resources</a>
+        </div>
+    </nav>
+
     <div class="flex-container">
     <div class="flex-item">
         <div class="image-container">
@@ -28,11 +45,15 @@
     </div>
     <div class="flex-item">
         <h2>About Me</h2>
-        <p>Hello!</p>
+        <p class="lead">Hello!</p>
         <p>I'm Shayla! I'm currently a full-time student at Bellevue College working towards my BAS in Software Development.</p>
         <p>I'm passionate about application development and design. My dream is to have a career where I am able to create innovative programs that help solve real world problems.</p>
         <p>In my free time I enjoy reading and writing fiction, playing video games, and being with my family (especially my children).</p>
         <p>Thank you for visiting my homepage! I look forward to sharing more about my journey in application development here.</p>
     </div>
+
+    <!-- bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
 </body>
 </div>
