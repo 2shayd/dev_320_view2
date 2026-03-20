@@ -1,19 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Project Portfolio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shayla Rohrer">
+    <meta name="description" content="Shayla Rohrer's Project Portfolio">
+    <meta name="keywords" content="Shayla, Rohrer, Project Portfolio, Software Development, Bellevue College">
+
+    <title>Shayla's Project Portfolio</title>
+
+    <!-- meyers reset css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>Shayla's Project Portfolio</h1>
-    <p>Welcome to my projects page. Here are some of my work samples:</p>
+    <div class="header">
+        <h1>Project Portfolio</h1>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navigation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="html/webresources.html">Web Resources</a>
+        <a class="nav-link active" aria-current="page" href="project.html">Project Portfolio</a>
+	<a class="nav-link" href="node/http-server">Vanilla/http-server</a>
+	<a class="nav-link" href="node/nest1">Legacy/Nest</a>
+	</div>
+    </nav>
 
-    <!-- Example project links -->
-    <ul>
-        <li><a href="https://github.com/yevgeniymazur/AgilityDevInc" target="_blank">Group Project: Wanderloom App</a></li>
-    </ul>
+    <div class="flex-container">
+    <div class="flex-item">
+        <h2 class="text-center">Wanderloom</h2>
+        <p class="lead">A web application for creating meaningful photo albums of travel memories.</p>
+        <ul>
+            <li><a href="https://github.com/yevgeniymazur/AgilityDevInc" target="_blank">Group Project: Wanderloom App</a></li>
+        </ul>
+        <p>Wanderloom is a web application designed to help users create organized collections of their travel photos. The app allows users to upload photos, organize them neatly by geolocation into albums, and return to view their albums whenever they want, making it easy to relive travel experiences.</p>
+        <p class="lead">Technology:</p>
+        <p>React, Firebase, JavaScript, HTML, CSS </p>
+        <p class="lead">My Role:</p>
+        <p>In this project, I contributed to the project documentation as the documentation specialist, team scribe, and worked in tandem with my team to develop the application.</p>
+        <ul>
+            <li>Managed documentation, including the weekly team report and retrospectives to ensure clear communication of project goals, features, and development progress.</li>
+            <li>Collaborated with team members to design and implement the user interface using React, ensuring a seamless and intuitive user experience.</li>
+            <li>Integrated Firebase Firestore for backend services, including uploading photo geolocation data to storage.</li>
+            <li>Participated in code reviews and contributed to debugging and testing efforts to maintain code quality and functionality.</li>
+        </ul>
 
-    <!-- Link back to main page -->
-    <a href="index.html">Back to Main Page</a>
+    </div>
+
+    <!-- bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
 </body>
 </html>
